@@ -1,3 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: bisque;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+/* CARD AND TITLE */
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    width: 30%;
+    border: solid lightblue 1px;
+    margin: 10px;
+    box-shadow: 10px 5px 5px darkgrey;
+}
+
+.card__title {
+    text-align: center;
+    margin: 20px;
+}
+
+/* CARD INFO */
+.card__info img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.card__description {
+    margin: 10px;
+    text-align: justify;
+}
+
+.card__available {
+    background-color: darkgray;
+    color: yellow;
+    margin: 10px 0;
+}
+
+/* CARD SPECS */
+
+.specs__header {
+    margin: 0 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card__size {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.card__weight {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.card__invalid {
+    font-size: 10px;
+}
+
+/* PRICING */
+
+.pricing__header {
+    margin: 0 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pricing {
+    margin: 0 10px;
+    font-weight: bold;
 }
