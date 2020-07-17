@@ -27,6 +27,9 @@ body {
 .card__title {
     text-align: center;
     margin: 20px;
+    font-family: 'Modak', cursive;
+    font-size: 30px;
+    font-weight: lighter;
 }
 
 /* CARD INFO */
@@ -41,6 +44,7 @@ body {
     margin: 10px;
     text-align: justify;
     color: #212121;
+    font-family: 'Merriweather', serif;
 }
 
 .card__available {
