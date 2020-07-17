@@ -33,7 +33,12 @@ body {
 }
 
 /* CARD INFO */
-.card__info img {
+
+.card__info {
+    position: relative;
+}
+
+.card__image {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -51,6 +56,13 @@ body {
     background-color: darkgray;
     color: yellow;
     margin: 10px 0;
+}
+
+.sold-out {
+    width: 70%;
+    position: absolute;
+    top: 10px;
+    right: 70px;
 }
 
 /* CARD SPECS */
