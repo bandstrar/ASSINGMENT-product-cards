@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: bisque;
+    background-color: #FFC107;
 }
 
 .container {
@@ -18,9 +18,10 @@ body {
     display: flex;
     flex-flow: column wrap;
     width: 30%;
-    border: solid lightblue 1px;
+    border: solid #BDBDBD 1px;
     margin: 10px;
-    box-shadow: 10px 5px 5px darkgrey;
+    box-shadow: 10px 5px 5px #607D8B;
+    background-color: #FFECB3
 }
 
 .card__title {
@@ -39,6 +40,7 @@ body {
 .card__description {
     margin: 10px;
     text-align: justify;
+    color: #212121;
 }
 
 .card__available {
