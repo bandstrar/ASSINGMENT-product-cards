@@ -39,6 +39,7 @@ body {
 }
 
 .card__image {
+    position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto;
